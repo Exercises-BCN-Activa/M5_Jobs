@@ -8,7 +8,7 @@ public abstract class AbsStaffMember {
 	protected String phone;
 	protected double totalPaid=0;
 
-	private static int COUNTER_MEMBERS = 1;
+	private static int COUNTER_MEMBERS = 1; //class built-in id generator
 
 	public AbsStaffMember(String name, String address, String phone) throws Exception {
 		if (name.equals(""))
